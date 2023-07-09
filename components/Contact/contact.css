@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  /* background-image: url(../../public/layer-5.svg);
+  background-repeat: repeat;
+  /* background-size: 20rem;
+  background-position: bottom -70px left -50px; */
+  height: 50vh; 
+  background-color: #321C04;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+}
+.contact-container h1{
+  font-family: 'Handlee', cursive;
+  font-size: 3.5rem;
+  color: #F2E9E4;
+  margin: 1rem 2rem;
+}
+.contact-container h1::after{
+  content: '';
+  display: block;
+  width: 10rem;
+  height: 0.5rem;
+  background-color: #F2E9E4;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.contact-container h1::before{
+  content: '';
+  display: block;
+  width: 10rem;
+  height: 0.5rem;
+  background-color: #F2E9E4;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.contact-container p{
+  font-family: 'Handlee', cursive;
+  font-size: 1.5rem;
+  color: #F2E9E4;
+}
+
+@media screen and (max-width: 580px) {
+  .contact-container{
+    flex-direction: column;
+  }
+  .contact-links{
+    margin-top: 1rem;
+  }
+  .contact-container p{
+  font-family: 'Handlee', cursive;
+  font-size: 1rem;
+  color: #F2E9E4;
+  margin-top: 0;
+}
+.contact-container h1{
+  font-family: 'Handlee', cursive;
+  font-size: 3rem;
+  color: #F2E9E4;
+  margin: 1rem 2rem;
+}
+.contact-container img{
+  width: 15rem;
+  margin-left: 15rem;
+  margin-top: -4rem;
+}
+}
+
+@media screen and (max-width: 390px) {
+  .contact-container{
+    flex-direction: column;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+  .contact-links{
+    margin-top: 1rem;
+  }
+  .contact-container p{
+  font-family: 'Handlee', cursive;
+  font-size: 0.9rem;
+  color: #F2E9E4;
+  /* margin-top: -2rem; */
+}
+.contact-container h1{
+  font-family: 'Handlee', cursive;
+  font-size: 2rem;
+  color: #F2E9E4;
+  margin: 1rem 2rem;
+}
+.contact-container img{
+  width: 12rem;
+  margin-left: 12rem;
+  margin-top: -1rem;
+}
+}
